@@ -19,7 +19,7 @@
     };
 
     kapi-vim = {
-      url = "github:henrydsg/kapi-vim?ref=refs/tags/0.5.1";
+      url = "github:henrydsg/kapi-vim";
     };
   };
   outputs =
