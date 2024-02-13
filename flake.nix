@@ -19,7 +19,7 @@
     };
 
     kapi-vim = {
-      url = "github:potsrevennil/kapi-vim?ref=refs/tags/0.5.1";
+      url = "github:henrydsg/kapi-vim?ref=refs/tags/0.5.1";
     };
   };
   outputs =
@@ -30,7 +30,7 @@
     , kapi-vim
     , ...
     }: {
-      darwinConfigurations.Thing-hans-MacBook-Pro =
+      darwinConfigurations.youyihongs-MacBook-Pro =
         darwin.lib.darwinSystem {
           system = "aarch64-darwin";
           pkgs = import nixpkgs { system = "aarch64-darwin"; };
@@ -38,15 +38,15 @@
             ./darwin.nix
             home-manager.darwinModules.home-manager
             {
-              users.users.thing-hanlim = {
-                name = "thing-hanlim";
-                home = "/Users/thing-hanlim";
+              users.users.yihungyu = {
+                name = "yihungyu";
+                home = "/Users/yihungyu";
               };
               home-manager = {
                 useGlobalPkgs = false;
                 useUserPackages = true;
                 extraSpecialArgs = { inherit kapi-vim; };
-                users.thing-hanlim = import ./home-manager/home.nix;
+                users.yihungyu = import ./home-manager/home.nix;
               };
             }
           ];

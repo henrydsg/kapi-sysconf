@@ -89,13 +89,13 @@
       "locked": {
         "lastModified": 1705290476,
         "narHash": "sha256-096Qg0iOahGKTtDt9/fAfa/Q3cDxL9Xv6an3u8hs+Z0=",
-        "owner": "potsrevennil",
+        "owner": "henrydsg",
         "repo": "kapi-vim",
         "rev": "1bae4de6a2c52cb69b4c3ecfe4c2d79ea7072bbb",
         "type": "github"
       },
       "original": {
-        "owner": "potsrevennil",
+        "owner": "henrydsg",
         "ref": "refs/tags/0.5.1",
         "repo": "kapi-vim",
         "type": "github"
