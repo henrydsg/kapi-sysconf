@@ -1,0 +1,16 @@
+[user]
+	name = Yihung Yu
+	email = henry840227@gmail.com
+[core]
+	editor = nvim
+	excludesFile = .gitignore
+[init]
+	defaultBranch = main
+[submodule]
+	recurse = true
+[alias]
+	co = checkout
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	la = log --graph --abbrev-commit --all
+	ll = log --graph --abbrev-commit --pretty=oneline --all

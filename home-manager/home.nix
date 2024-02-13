@@ -114,6 +114,7 @@
 
   home.file = {
     ".config/alacritty/alacritty.yml".source = ./alacritty.yml;
+    ".config/git/config".source = ./git_config;
     ".config/zellij/config.kdl".source = ./zellij.kdl;
     ".config/zellij/layouts/default.kdl".source = ./zellij-default-layout.kdl;
   };
