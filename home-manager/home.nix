@@ -88,6 +88,7 @@
         set -wg mode-style bg=#c6c8d1,fg=#33374c
         set -g pane-border-status top
 
+        set-option -g prefix C-Space
         bind '"' split-window -c "#{pane_current_path}"
         bind % split-window -h -c "#{pane_current_path}"
         bind c new-window -c "#{pane_current_path}"
