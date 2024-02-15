@@ -63,7 +63,7 @@
       oh-my-zsh = {
         enable = true;
         plugins = [ "sudo" "git" "colored-man-pages" "tmux" ];
-        theme = "random";
+        theme = "lukerandall";
       };
     };
 
